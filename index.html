@@ -1,0 +1,29 @@
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Task List</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Task List</h1>
+    <form id="task-form">
+      <label for="task-name">Task Name:</label>
+      <input type="text" id="task-name" name="task-name" required>
+      
+      <label for="task-description">Task Description:</label>
+      <textarea id="task-description" name="task-description" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="task-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
